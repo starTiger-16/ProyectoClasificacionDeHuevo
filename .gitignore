@@ -1,0 +1,27 @@
+# Archivos que no se subirán al repositorio
+# Entornos virtuales
+venv/
+env/
+*.pyc
+__pycache__/
+db.sqlite3
+
+# Configuraciones de VSCode o PyCharm
+.vscode/
+.idea/
+
+# Archivos de entorno (variables secretas)
+*.env
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs y cachés
+*.log
+*.pot
+*.py[co]
+*.pyo
+*.pyd
+*.cache
+*.tmp
